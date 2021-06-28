@@ -367,4 +367,40 @@ a{
      
 }
 
+/* Counter up css */
+.counter-area .col-xl-3:nth-child(2n) .single-counter{
+    background-color: #24283f;
+}
+.single-counter {
+    background-color: #292c47;
+    color: #fff;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-counter i {
+    background-color: #635cdb;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.single-counter h4 {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.single-counter h4 span {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
  
