@@ -265,6 +265,62 @@ a{
     background: #635cdb;
     color:#fff
 }
+/* Skill Section */
+.skill-area{
+    color:#fff;
+}
+.skill-area .accordion-button {
+    background-color: #635cdb;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 0 !important;
+}
+
+.skill-area .accordion-body {
+    background-color: #fff;
+    color: #333;
+    
+}
+
+.skill-area .accordion-button:focus {
+    border: 20px;
+    box-shadow: none;
+}
+.skill-title h4 {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding-bottom: 12px;
+    position: relative;
+    display: inline-block;
+}
+
+.skill-title h4:before {
+    position: absolute;
+    content: "";
+    width: 39px;
+    height: 2px;
+    background-color: #635cdb;
+    bottom: 0;
+}
+.single-progress h4 {
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.single-progress {
+    margin-bottom: 35px;
+}
+
+.single-progress .progress-bar {
+    background-color: #635cdb;
+}
+
+.single-progress .progress {
+    height: 25px;
+}
+
 /* Service Css */
 .single-service {
     text-align: center;
@@ -277,6 +333,16 @@ a{
 }
 
 .single-service i {
+    font-size: 14px;
+    background-color: #635cdb;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+.single-service .service-icon{
     font-size: 14px;
     background-color: #635cdb;
     color: #fff;
